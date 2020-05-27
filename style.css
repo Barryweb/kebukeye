@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 微軟正黑體;
+  box-sizing: border-box;
+}
+#logo {
+  padding-left: 374px;
+}
+nav {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 100%;
+  padding: 35px;
+  position: fixed;
+  top: 0;
+  background: rgba(rgb(255, 255, 255, 1));
+}
+#nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 20% 10%;
+  text-align: center;
+  align-items: center;
+  padding: 0px 200px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+#banner {
+  width: 1920px;
+  height: 1800px;
+  padding: 200px;
+  background-image: url(./img/invalid-name.png);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+}
