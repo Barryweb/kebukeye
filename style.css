@@ -4,6 +4,15 @@
   font-family: 微軟正黑體;
   box-sizing: border-box;
 }
+.clearfix:after,
+.clearfix:before {
+    content: "";
+    display: block;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+    height: 0;
+}
 #logo {
   padding-left: 374px;
 }
@@ -29,7 +38,7 @@ a {
   font-size: 15px;
 }
 #banner {
-  width: 1920px;
+  width: 100%;;
   height: 1800px;
   padding: 200px;
   background-image: url(./img/invalid-name.png);
@@ -41,3 +50,59 @@ a {
   margin: 0 auto;
   display: inline-block;
 }
+#news{
+  width: 100%;
+  height: 734px;
+  background:#dfe6e9;
+}
+#news .title{
+  width: 100%;
+  height: 59px;
+  text-align: center;
+  margin-top: 46px;
+  font-size: 29px;
+}
+#news .img .img1 h1{
+  font-size: 21px;
+  text-align: center;
+  width: 380px;
+}
+#news .img .img1 hr{
+  color: black;
+  margin-bottom: 28px;
+  width: 322px;
+  margin: 0 auto;
+}
+#news .img .img1 h4{
+  width: 322px;
+  height: 74px;
+  margin: 0 auto;
+}
+#news .title p{
+  padding: 0 5px;
+}
+#news .img{
+  width: 1000%;
+  height: 600px;
+  margin-left: 370px;
+}
+#news .img .img1 .img-content{
+  margin-top: 39px;
+}
+#news .img .img1{
+  width: 380px;
+  height: 600px;
+  float: left;
+  text-align: center;
+  background: white;
+}
+#news .img .img1 .detial{
+  width: 380px;
+  height: 74px;
+}
+#news .img .img1 p{
+  text-align: center;
+  width: 380px;
+  height: 40px;
+}
+
